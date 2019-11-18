@@ -1,0 +1,511 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	background-color: black;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background-color:  blue;
+	border-radius: 3%;
+	border: 3px solid white;
+	padding: 1px;
+}
+.logo{
+  width: 100px;
+  height: 100px;
+  float:left;
+  margin: 10px 10px 15px 30px;
+  border-radius: 100%;
+  border: 5px solid green;
+  opacity: 0.7;
+}
+.logo:hover{
+	box-shadow:0 0 15px 5px rgba(10,100,190,0.5);
+	opacity:1.0;
+}
+.head{
+	color: gold;
+	font-size: 3.5rem;
+	float: left;
+	font-family: lora;
+	font-weight: 800;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+nav{
+	float: right;
+}
+nav li{
+	display: inline;
+	padding: 1.5rem;
+}
+nav li a{
+	color: #33ff33;
+	text-decoration: none;
+	font-family: fantasy;
+	font-weight: 200;
+	font-size: 20px;
+}
+nav li a:hover{
+	color: yellow;
+	border-bottom: 2px solid gold;
+	font-size: 1.2rem;
+	padding: 15px 0;
+	transition: all 0.5s ease-in;
+}
+.show{
+	overflow: hidden;
+	width: 100%;
+	height: 50rem;	
+}
+
+.show figure div{
+	float: left;
+	width: 20%;
+}
+
+.show figure img{
+	width: 100%;
+	float: left;
+}
+
+.show figure{
+	position: relative;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 20s himanshu infinite;
+}
+@keyframes himanshu{
+	0%{
+		left: 0%;
+	}
+	10%{
+		left: 0%;
+	}
+	12%{
+		left: -100%;
+	}
+	22%{
+		left: -100%;
+	}
+	24%{
+		left: -200%;
+	}
+	34%{
+		left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+		left: -300%;
+	}
+	48%{
+		left: -400%;
+	}
+	58%{
+		left: -400%;
+	}
+	60%{
+		left: -300%;
+	}
+	70%{
+		left: -300%;
+	}
+	72%{
+		left: -200%;
+	}
+	82%{
+		left: -200%;
+	}
+	84%{
+		left: -100%;
+	}
+	94%{
+		left: -100%;
+	}
+	96%{
+		left: 0%;
+	}
+}
+
+.anothersection{
+	background-color: #4da6ff;
+	border-radius: 5%;
+	margin-top:20px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border:5px solid black;
+
+}
+h1{
+	font-family: sigoe print;
+	font-size: 30px;
+	text-align: center;
+
+}
+h4{
+	font-size: 20px;
+	text-align: center;
+}
+.member ,.contactbar,.newsection,.service{
+	margin: 5rem 5rem;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+#newdiv{
+	padding: 1rem;
+	width:250px;
+	font-size: 20px;
+}
+#philosophy{
+	text-align: center;
+	font-family: 
+	font-size: 30px;
+}
+#price{
+	text-align: center;
+	font-size: 40px;
+	font-family: cursive;
+	margin-top: 30px;
+	color:white;
+	
+}
+#shape{
+	padding: 1rem;
+	background-color: #FF3031;
+	color: #fff;
+	border-radius: 50%;
+}
+.box{
+	padding: 1rem;
+	background-color: #4da6ff;
+	width:200px;
+}
+.box p{
+	font-family: cursive;
+}
+.btn{
+	background-color: #E44236;
+	color: #fff;
+	padding: 0.7rem 1rem;
+	border: none;
+	border-radius: 10px;
+}
+.btn:hover{
+	background-color: yellow;
+	color: #000;
+	font-size: 1.2rem;
+}
+footer{
+	float: top;
+	background-color: black;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	margin-top: 10px;
+	height: 300px;
+	border-radius: 3%;
+	border : 2px solid white;
+}
+#hours{
+	 
+	text-align: left;
+	font-size: 20px;
+	width: 400px;
+}
+#address{
+	
+	text-align: left;
+	font-size: 20px;
+	width:450px; 
+
+}
+#contact{
+	
+	text-align: left;
+	font-size: 20px;
+	width:300px;
+}
+#top{
+	font-size: 20px;
+	margin-left:10px;
+}
+#top:visited{
+	color:green;
+}
+#top:hover{
+	color:purple;
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .logo{
+  width: 90px;
+  height: 90px;
+  float:left;
+  margin: 10px 10px 10px 20px;
+  }
+  .head{
+  	font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo{
+   width: 70px;
+  height: 70px;
+  float:left;
+  margin: 5px 5px 5px 15px;
+  }
+  .head{
+  	font-size: 2rem;
+  }
+}
+#about{
+	color: red;
+}
+#image{
+	width: 100%;
+	height: 60 rem;
+	opacity: 0.4;
+}
+#center{
+	position: absolute;
+  	top: 65%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 70px ;
+  	color:white;
+}
+#centerup{
+	position: absolute;
+  	top: 74%;
+  	margin-left: 18%;
+  	font-size: 70px ;
+  	color:#ff0000;
+  	text-align: center;
+}
+.butn{
+	position: absolute;
+  	top: 93%;
+  	left: 50%;
+  	transform: translate(-70%, -50%);
+  	font-size: 30px;
+  	background-color: white;
+	color: red;
+	padding: 0.7rem 1rem;
+	border: none;
+	border-radius: 10px; 
+}
+.butn:hover{
+	background-color: yellow;
+	color: #000;
+	font-size: 1.2rem;
+}
+.years{
+	margin-left: 70px;
+	margin-top: 50px;
+	font-size: 30px;
+	font-family: oxygen;
+	color: red;
+}
+.para{
+	width: 100%;
+	color: white;
+	margin: 20px 10px 50px 70px;
+	font-size: 20px;
+	margin-right: 50px;
+}
+#trainer{
+	float: right;
+	width: 400px;
+	height: 500px;
+	margin-right: 200px;
+	margin-left: 300px;
+}
+#trainee{
+	color: red;
+	font-size: 25px;
+	float: right;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+#services{
+	color: red;
+}
+#service{
+	position: absolute;
+  	top: 75%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-size: 80px ;
+  	color:white;
+}
+#down{
+	position: absolute;
+  	top: 85%;
+  	margin-left: 45%;
+  	font-size: 20px ;
+  	color:#ff0000;
+  	text-align: center;
+}
+#heading{
+	font-size: 40px;
+}
+.para1{
+	color: white;
+	text-align: center;
+}
+.service{
+	color: white;
+}
+.para10{
+	padding:0.7rem;
+	width:500px;
+	text-align: center;
+	margin-top: 10px;
+}
+.para10 p{
+	font-family: cursive;
+}
+.para10:hover{
+	box-shadow: 0 0 15px 5px white;
+}
+#mber{
+	color: red;
+}
+#imge{
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+}
+.register{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	color: white;
+	font-size: 20px;
+	border:2px solid orange;
+	padding: 30px;
+}
+#para15{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	color: red;
+	font-family: oxygen;
+	font-size: 60px;
+}
+#name,#ph,#num,#male{
+	margin-left: 50px;
+	font-size: 15px;
+}
+#month{
+	margin-left: 320px;
+	font-size: 15px;
+}
+#sub{
+	color: red;
+	background-color: white;
+	margin-left: 40%;
+	font-size: 30px;
+	border-radius: 20%;
+}
+#sub:hover{
+	color: black;
+	background-color: yellow;
+	font-size: 20px;
+
+}
+
+#cont{
+	color:red;
+}
+
+#imgp{
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+}
+.con{
+	position: absolute;
+	top: 60%;
+	left: 5%;
+	color: white;
+	font-size: 25px;
+}
+
+#para16{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	color: white;
+	font-family: lora;
+	font-size: 60px;
+	text-align: justify;
+}
+#para17{
+	position: absolute;
+	top: 34%;
+	left: 0%;
+	font-size: 20px;
+	height: 40px;
+	width: 70%;
+}
+#para30{
+	color: red;
+}
+
+#mnumbr{
+	position: absolute;
+	top:22%;
+	left:110%;
+	color: white;
+	font-size:25px;
+	width: 100%;
+}
+
+#numb{
+	position: absolute;
+	top: 34%;
+	left: 110%;
+	font-size: 20px;
+	height: 40px;
+	width: 100%;
+}
+
+#mssg{
+	position: absolute;
+	top:55%;
+	left:0%;
+	color: white;
+	font-size:25px;
+	width: 100%;
+}
+
+#msgs{
+	position: absolute;
+	top: 65%;
+	left: 0%;
+	font-size: 20px;
+	height: 110px;
+	width: 100%;
+}
+
+#send{
+	color: red;
+	background-color: white;
+	margin-left: 5%;
+	font-size: 30px;
+	border-radius: 20%;
+}
+#send:hover{
+	color: black;
+	background-color: yellow;
+	font-size: 20px;
+
+}
